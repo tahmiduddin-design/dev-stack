@@ -18,7 +18,7 @@ const Navbar = () => {
 
     <div className="flex items-center gap-3">
         <button className="font-medium text-black">Sign In</button>
-        <button className="bg-[#D91B7E] text-white px-4 py-1.5">Sign Up</button>
+        <button className="bg-[#D91B7E] text-white px-4 py-1.5 rounded">Sign Up</button>
     </div>
 
     </nav>
