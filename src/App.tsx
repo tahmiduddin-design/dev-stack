@@ -6,6 +6,7 @@ import YourStack from './Components/YourStack';
 import type { ITechnology } from './Types/technologyType';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Components/Footer';
 
 const loadTechnologies = async (): Promise<ITechnology[]> => {
   const res = await fetch('/technologies.json');
@@ -78,6 +79,7 @@ function App() {
           </aside>
         </div>
       </main>
+      <Footer />
 
       <ToastContainer position="top-right" autoClose={1500} />
     </div>
