@@ -30,3 +30,20 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+Where can we deploy the site?
+
+Any platform works. You can use Netlify, Vercel, Cloudflare Pages, or any host of your choice.
+
+Do we have to use TypeScript?
+
+No. TypeScript is optional. You can build the entire project using standard JavaScript.
+
+Can we change the title, logo, and colors?
+
+Yes. You can customize them freely, as long as they look professional and fit the theme of the project.
+
+Where do we get the technology logos/icons?
+
+You can use any valid image URL from Google or copy direct icon links from techicons.dev into your JSON data.
