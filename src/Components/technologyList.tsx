@@ -1,6 +1,6 @@
 import { use } from "react";
 import TechnologyCard from "./TechnologyCard";
-import type { ITechnology } from "../Types/technologyType";
+import type { ITechnology } from "../types/technologyType";
 
 interface TechnologyListProps {
   technologiesPromise: Promise<ITechnology[]>;

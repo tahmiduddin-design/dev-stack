@@ -1,9 +1,9 @@
-import React, { Suspense, useState } from 'react';
+import { Suspense, useState } from 'react';
 import Navbar from './Components/Navbar';
 import Banner from './Components/Banner';
 import TechnologyList from './Components/TechnologyList';
 import YourStack from './Components/YourStack';
-import type { ITechnology } from './Types/technologyType';
+import type { ITechnology } from './types/technologyType';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Components/Footer';

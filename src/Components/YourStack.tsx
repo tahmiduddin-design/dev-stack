@@ -1,6 +1,5 @@
-import React from 'react';
 import StackItem from './StackItem';
-import type { ITechnology } from '../Types/technologyType';
+import type { ITechnology } from '../types/technologyType';
 
 interface StackProps {
   selectedStack: ITechnology[];
